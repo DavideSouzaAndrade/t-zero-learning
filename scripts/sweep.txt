@@ -1,0 +1,10 @@
+baseline|
+Q1_envs1|num_envs=1
+Q1_envs64|num_envs=64
+Q1_envs1_steps40|num_envs=1 a2c.num_steps=40
+Q2_steps1|a2c.num_steps=1
+Q2_steps32|a2c.num_steps=32
+Q2_steps128|a2c.num_steps=128
+Q3_ent0|a2c.ent_coef=0
+Q3_ent0.1|a2c.ent_coef=0.1
+Q4_nobaseline|a2c.use_baseline=false

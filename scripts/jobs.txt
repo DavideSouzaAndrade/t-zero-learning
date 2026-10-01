@@ -1,0 +1,20 @@
+Q1_envs1|1|num_envs=1
+Q1_envs1|2|num_envs=1
+Q1_envs1_steps40|1|num_envs=1 a2c.num_steps=40
+Q1_envs1_steps40|2|num_envs=1 a2c.num_steps=40
+Q2_steps1|1|a2c.num_steps=1
+Q2_steps1|2|a2c.num_steps=1
+baseline|1|
+baseline|2|
+Q1_envs64|1|num_envs=64
+Q1_envs64|2|num_envs=64
+Q2_steps32|1|a2c.num_steps=32
+Q2_steps32|2|a2c.num_steps=32
+Q2_steps128|1|a2c.num_steps=128
+Q2_steps128|2|a2c.num_steps=128
+Q3_ent0|1|a2c.ent_coef=0
+Q3_ent0|2|a2c.ent_coef=0
+Q3_ent0.1|1|a2c.ent_coef=0.1
+Q3_ent0.1|2|a2c.ent_coef=0.1
+Q4_nobaseline|1|a2c.use_baseline=false
+Q4_nobaseline|2|a2c.use_baseline=false
