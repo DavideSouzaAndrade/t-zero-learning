@@ -42,7 +42,7 @@ def table(rows, widths):
 
 s = []
 s.append(P("Atividade: Policy Gradient com Actor-Critic (A2C) — CartPole-v1", h1))
-s.append(P(f"Aluno(s): ______________________ &nbsp;&nbsp;|&nbsp;&nbsp; Fork com <font face='Courier'>algorithms/a2c.py</font> e "
+s.append(P(f"Aluno: Davi de Souza Andrade &nbsp;&nbsp;|&nbsp;&nbsp; Fork com <font face='Courier'>algorithms/a2c.py</font> e "
            f"<font face='Courier'>networks/discrete_actor_critic.py</font> completos: <link href='{FORK}' color='blue'>{FORK}</link>", small))
 s.append(P("<b>Implementação.</b> Parte 1: retorno de n passos calculado de trás para frente, "
            "R<sub>t</sub> = r<sub>t</sub> + γ(1−d<sub>t</sub>)R<sub>t+1</sub>, R<sub>T</sub> = V(s<sub>T</sub>), por coluna. "
